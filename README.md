@@ -9,7 +9,7 @@ Define a variable `x` equal to 10.
 {% initial %}
 var x =
 {% solution %}
-var x = 10;
+var x = 10
 {% validation %}
 assert(x == 10);
 {% endexercise %}
@@ -29,6 +29,9 @@ var sum = 0
 var a = 1
 var b = 10
 var sum = 0
+for (var i=a; i<=b; i++){
+	sum += i
+}
 // complete this solution
 {% validation %}
 assert(sum == 55)
